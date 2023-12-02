@@ -3,7 +3,7 @@ let password1 = document.querySelector(".password1");
 let password2 = document.querySelector(".password2");
 let showError = document.querySelector(".showError");
 
-password2.addEventListener("change", () => {
+password2.addEventListener("input", () => {
     if (password1.value != password2.value) {
         password1.style.borderColor = "red";
         password2.style.borderColor = "red";
