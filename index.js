@@ -17,3 +17,16 @@ password2.addEventListener("input", () => {
         showError.style.display = "none";
     }
 })
+
+
+password1.addEventListener('input', () => {
+    if ((password2.value != '') && (password1.value != password2.value)) {
+        password1.style.borderColor = "red";
+        password2.style.borderColor = "red";
+    }
+
+    if ((password2.value != '') && (password1.value == password2.value)) {
+        password1.style.borderColor = "blue";
+        password2.style.borderColor = "blue";
+    }
+})
