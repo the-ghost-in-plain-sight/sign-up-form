@@ -85,3 +85,7 @@ button {
     color: red;
     font-size: small;
 }
+
+[type = "email"]:invalid {
+    border-color: red;
+}
