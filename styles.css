@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 h1 {
     text-align: center;
     
@@ -12,6 +17,7 @@ h1 {
 
 .signUp {
     display: flex;
+    color: black;
 }
 
 .backgroundImage {
@@ -46,6 +52,7 @@ input:focus {
 .disclaimer {
     font-weight: bolder;
     margin-left: 10%;
+    color: white;
 }
 
 form {
